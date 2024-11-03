@@ -1,0 +1,14 @@
+{
+    "PORT":3002,
+    "TOKEN_VALIDITY_MIN":60,
+    "SECRET":"6IkpXVCJ9CI6MTY4ODE2w2kXAerp9fidIBWEsT2QYI1N1SL221l",
+    "USER_TYPE":{
+        "ADMIN":"ADMIN",
+        "REGULAR":"REGULAR"
+    },
+    "ARCHIVAL_REASON":{
+        "COMPLETE":"COMPLETE",
+        "CANCELLED":"CANCELLED"
+    }
+
+}

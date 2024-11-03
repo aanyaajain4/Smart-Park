@@ -1,0 +1,32 @@
+{
+  "name": "parkeaze",
+  "version": "1.0.0",
+  "description": "Application to serve and manage parking spaces.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [
+    "park"
+  ],
+  "author": "Saunak Kushwaha",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "fastest-validator": "^1.17.0",
+    "jsonwebtoken": "^9.0.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.5.0",
+    "path": "^0.12.7",
+    "require-new": "^1.1.1",
+    "sequelize": "^6.32.1"
+  }
+}
